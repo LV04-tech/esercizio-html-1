@@ -1,0 +1,66 @@
+/* backgroud +backgrounf image */
+.background{
+    height: 50vh;
+    background-image: url(./media/24239.jpg);
+    background-repeat: no repeat;
+    background-position: 30% 20%;
+    background-position: center;
+    background-color: rgb(240, 237, 237);
+    background-attachment: fixed;
+    
+}
+.color {
+    width: 1500px;
+    height: 200px;
+    background-color: rgb(240, 237, 237);
+}
+.color1{
+    width: 1500px;
+    height: 200px;
+    background-color: rgb(240, 237,237);
+}
+.color2{
+    width: 1500px;
+    height: 200px;
+    background-color: rgb(240, 237,237);
+}
+/* due font personalizzate */
+*{
+    font-family: "Cormorant Garamond", serif;
+}
+h1 {
+    font-family: "Winky Sans", sans-serif;
+    font-size: 50px;
+    color: rgb(71, 70, 70);    
+}
+
+/* hover */
+a{
+    font-size: 30px;
+}
+
+a:link{
+    color: rgb(58, 58, 58);
+}
+
+a:hover{
+    color: green
+}
+/* colore personalizzato  */
+
+h2{
+    
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(185, 160, 137);
+    text-align: center;
+}
+
+h3,h4{
+    color: rgb(53, 160, 53);
+    font-size: bold;
+}
+
+
+
+

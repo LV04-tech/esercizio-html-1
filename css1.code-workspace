@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../wa/css"
+		},
+		{
+			"path": "media"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "css"
+	}
+}
