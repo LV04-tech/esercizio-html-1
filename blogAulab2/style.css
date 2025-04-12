@@ -1,0 +1,57 @@
+nav{
+    background-image: linear-gradient(black,grey,darkblue );   
+}
+.logAulab{
+    width: 100px;
+    height: 100px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.listlink {
+    list-style-type: none;
+}
+header{
+    background-image: url(./media/Code-Globe-Overlay.webp);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+h1 {
+    font-family: "Winky Sans", sans-serif;
+    font-size: 50px;
+    color: white;    
+}
+
+.linkHome{
+    color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+.btnArticle{
+background: rgb(10, 10, 10);
+color: white;
+}
+.btnArticle:hover{
+    background-color: yellow;
+    color: black;
+}
+
+/* due font personalizzate */
+*{
+    font-family: "Cormorant Garamond", serif;
+}
+
+h2{
+    
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(185, 160, 137);
+    text-align: center;
+}
+
+
+
+
