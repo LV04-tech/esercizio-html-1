@@ -1,44 +1,3 @@
-nav{
-    background-image: linear-gradient(black,grey,darkblue );   
-}
-.logAulab{
-    width: 100px;
-    height: 100px;
-}
-.link{
-    text-decoration: none;
-    color: white;
-}
-.listlink {
-    list-style-type: none;
-}
-header{
-    background-image: url(./media/Code-Globe-Overlay.webp);
-    height: 80vh;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-}
-h1 {
-    font-family: "Winky Sans", sans-serif;
-    font-size: 50px;
-    color: white;    
-}
-
-.linkHome{
-    color: white;
-  text-decoration: none;
-  font-size: 30px;
-}
-.btnArticle{
-background: rgb(10, 10, 10);
-color: white;
-}
-.btnArticle:hover{
-    background-color: yellow;
-    color: black;
-}
-
 /* due font personalizzate */
 *{
     font-family: "Cormorant Garamond", serif;
@@ -46,11 +5,176 @@ color: white;
 
 h2{
     
-    font-weight: 700;
-    font-size: 40px;
+    font-weight: 50px;
+    font-size: 50px;
     color: rgb(185, 160, 137);
+    
+}
+
+body{
+    margin: 0px;
+}
+
+
+nav{
+    background-image: linear-gradient(black, rgba(255, 166, 0, 0.671),rgba(255, 255, 0, 0.749) ); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.logAulab{
+    width: 100px;
+    height: 100px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+.link:hover{
+    background-color: rgba(255, 255, 0, 0.685);
+    border: 3px dashed  ;
+}
+
+.listlink {
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+}
+
+header {
+    background-image: url(./media/concetti-base-di-informatica-orig.avif);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Winky Sans", sans-serif;
+    font-size: 50px;
+    color: white;    
+}
+
+.linkHome {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.btnArticle{
+    background: rgb(10, 10, 10);
+    color: white;
+}
+
+.btnArticle:hover{
+    background-color: rgba(255, 255, 0, 0.685);
+    color: black;
+}
+
+.titleArticle{
     text-align: center;
 }
+.imgArticle{
+    width: 300px;
+    
+}
+.boxArticle{
+    display: flex;
+    width: 60%;
+    
+}
+
+aside {
+    background-color: rgba(255, 255, 0, 0.685);
+    background-color: ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+main {
+    display: flex;
+}
+
+footer {
+    background-image: linear-gradient(black, rgba(255, 166, 0, 0.671),rgba(255, 255, 0, 0.749) ); 
+    background-color:;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    height: 30vh;
+    margin-top: 100px;
+}
+
+.line {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: end;
+  position: sticky;
+  top: 0px;
+  z-index: 20px;
+}
+ 
+
+@media screen and (max-width: 600px) {
+
+   .link{
+    font-size: 10px;
+   }
+   .LogoAulab{
+    display: block;
+    width: 50px;
+    height: 50px;
+   }
+   .line{
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+
+    }
+
+   .boxArticle {
+     display: block;
+     width: 100%;
+   } 
+   aside{
+    width: 100%;
+    display: block;
+   } 
+
+   h2{
+    font-size: 20px;
+    margin: 5px;
+   }
+   main{
+    display: block;
+   }
+   article{
+    margin: 20px 0px;
+   }
+   footer{
+    display: block;
+   }
+   header{
+    height: 40vh;
+ }
+  h1{
+    font-size: 20px;
+    
+  }
+
+}
+
+
 
 
 
