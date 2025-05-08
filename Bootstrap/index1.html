@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <!-- cdn bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Boldonse&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat&family=Oswald:wght@200..700&family=Playwrite+GB+S&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-success w-100 position-fixed top-0 z-3 position-absolute p-2">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#"><i class="bi bi-film"></i> Cinema</a>
+            <button class="navbar-toggler" type="button btn-sm" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Chi siamo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contatti</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- header -->
+    <header class="container-fluid">
+        <div class="row vh-100 justify-content-center alighn-items-center">
+            <div class="col-12">
+                <h1 class="text-success text-center text-white">Blog Cinema</h1>
+            </div>
+        </div>
+    </header>
+    
+    <!-- section fim -->
+    <section class="container">
+        <div class="row justify-content-center alighn-items-center d-flex">
+            <div class="col-12 text-center text-white">
+                <h2>TUTTI GLI ARTICOLI</h2>
+            </div>
+            <!-- articolo1 -->
+            <div class="col-12 col-md-3 d-flex justify-content-center">
+                <div class="card bg-dark text-white" style="width: 18rem;">
+                    <a href="https://www.rottentomatoes.com"><img src="./media/img.1.webp" class="card-img-top" alt="30 notti con il mio ex film"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">30 Notti con il mio Ex</h4>
+                        <h5 class="bg-success">Data di uscita: 17 Aprile 2025 (Italia)</h5>
+                        <p class="card-text">La commedia famigliare segue le vicende di Bruno, sua figlia Emma e della ex moglie Terry. Bruno è una persona ansiosa, anche perchè ha cresciuto sua figlia Emma quasi da solo poichè Terry ha affrontato un lungo percorso di ricovero da disturbi dell'umore. Emma è una teenager e per quanto adori suo padre sente anche la forte mancanza di un rapporto con la figura materna.</p>
+                        <a href="#" class="btn btn-outline-success">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!-- artcolo2 -->
+            <div class="col-12 col-md-3 d-flex justify-content-center">
+                <div class="card bg-dark text-white" style="width: 18rem;">
+                    <a href="https://www.rottentomatoes.com"><img src="./media/img.2.jpg" class="card-img-top" alt="until dawn film"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">Until Dawn: Fino all'Alba</h4>
+                        <h5 class="bg-success">Data di Uscita: 24 apr 2025</h5>
+                        <p class="card-text">Fino all'Alba, film diretto da David F. Sandberg, segue un gruppo di amici, che decidono di trascorre il fine settimana in un rifugio sciistico in occasione dell'anniversario della scomparsa di alcuni membri della compagnia. Non sanno, però, di non essere soli... ma lo scopriranno presto a loro spese.</p>
+                        <a href="#" class="btn btn-outline-success">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!-- articolo-3 -->
+            <div class="col-12 col-md-3 d-flex justify-content-center">
+                <div class="card bg-dark text-white" style="width: 18rem;">
+                    <a href="https://www.rottentomatoes.com"><img src="./media/im.3.jpg" class="card-img-top" alt="Moon il panda film"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">Moon il Panda</h4>
+                        <h5 class="bg-success">Data di Uscita: 17 apr 2025</h5>
+                        <p class="card-text">Lontano dalla vita di città, fra le suggestive montagne cinesi, diventa segretamente amico di un cucciolo protetto di panda e lo chiama Moon. Sarà l’inizio di un’avventura incredibile che cambierà per sempre la sua vita e quella della sua famiglia.</p>
+                        <a href="#" class="btn btn-outline-success">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- form -->
+    <section class="container">
+        <div class="row d-flex justify-content-center alighn-items-center">
+            <div class="col-12 text-white text-center my-5">
+                <h2>Lavora con Noi</h2>
+            </div>
+            <div class="col-12 col-md-4 bg-dark rounded-4 p-4">
+                <form>
+                    <div class="mb-3 text-white">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text text-white fst-italic text-body-secondary">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3 text-white">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check text-white">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Invia</button>
+                </form>
+            </div>
+            
+        </div>
+    </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-4" id="exampleModalLabel">Grazie per averci contattato</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+
+  <footer class="container-fluid">
+    <div class="row bg-dark m-2 p-3">
+        <div class="col-12 col-md-3 text-white alighn-items-center">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi consectetur nisi quidem quas enim! Aliquid dolorum inventore voluptas eos deleniti itaque, esse quae. Vero nobis iusto consectetur a dolorum illo.</p>
+        </div>
+        <div class="col-12 col-md-3 text-white">
+            <ul>
+                <li>P.IVa: 37459230</li>
+                <li>Mario Rossi</li>
+                <li>numero: 067493982</li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-3 text-white">
+            <ul>
+                <li><i class="bi bi-facebook"></i>acebook</li>
+                <li><i class="bi bi-twitter"></i>Twitter</li>
+                <li><i class="bi bi-instagram"></i>Instagram</li>
+            </ul>
+        </div>
+    </div>
+  </footer>
+
+    
+    
+    
+    
+    
+    
+    <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
